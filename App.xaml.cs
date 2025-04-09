@@ -1,4 +1,4 @@
-﻿namespace ContactManagerApp
+﻿namespace MVVM_Contact_App
 {
     public partial class App : Application
     {
@@ -8,6 +8,5 @@
 
             MainPage = new NavigationPage(new Views.AddContactPage(new ViewModels.ContactViewModel()));
         }
-
     }
 }

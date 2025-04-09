@@ -1,5 +1,6 @@
 ﻿using Android.App;
 using Android.Runtime;
+using MVVM_Contact_App;
 
 namespace ContactManagerApp;
 

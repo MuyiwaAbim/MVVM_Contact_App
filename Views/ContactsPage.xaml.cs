@@ -1,8 +1,8 @@
-using ContactManagerApp.ViewModels;
-using ContactManagerApp.Models;
-using Contact = ContactManagerApp.Models.Contact;
+using MVVM_Contact_App.ViewModels;
+using MVVM_Contact_App.Models;
+using Contact = MVVM_Contact_App.Models.Contact;
 
-namespace ContactManagerApp.Views
+namespace MVVM_Contact_App.Views
 {
     public partial class ContactsPage : ContentPage
     {

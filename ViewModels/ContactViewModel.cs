@@ -1,10 +1,11 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using ContactManagerApp.Models;
+using MVVM_Contact_App.Models;
 using System.Collections.ObjectModel;
-using Contact = ContactManagerApp.Models.Contact;
+using System.Xml.Linq;
+using Contact = MVVM_Contact_App.Models.Contact; // Alias for your Contact model
 
-namespace ContactManagerApp.ViewModels
+namespace MVVM_Contact_App.ViewModels
 {
     public partial class ContactViewModel : ObservableObject
     {

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ContactManagerApp.Models
+﻿namespace MVVM_Contact_App.Models
 {
     public class Contact
     {
